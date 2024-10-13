@@ -11,6 +11,7 @@ public class UdpClient {
         startClient(8);
     }
 
+    // Some change
     private static void startClient(int pingsNumber) throws Exception {
         Socket socket = new Socket("127.0.0.1", 1111);
 
